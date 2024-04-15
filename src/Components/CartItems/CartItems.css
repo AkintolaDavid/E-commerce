@@ -1,0 +1,81 @@
+.cartitems {
+  margin: 100px 170px;
+}
+.cartitems hr {
+  background-color: #e2e2e2;
+  height: 3px;
+  border: none;
+}
+.cartitem_format_main {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+  padding: 20px 0px;
+  align-items: center;
+  gap: 75px;
+  font-size: 18px;
+  font-weight: 600;
+}
+.cartitem_format .cartitem_image {
+  height: 65px;
+  width: 65px;
+}
+.cartitem_quantity {
+  width: 64px;
+  height: 50px;
+  border: 1px solid black;
+  background-color: white;
+}
+.removeicon {
+  cursor: pointer;
+  margin: 0px 25px;
+}
+.cartitemsdown {
+  display: flex;
+  margin: 100px 0px;
+}
+.cartitemtotal {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  margin-right: 200px;
+  gap: 40px;
+}
+.cartitemtotal h1 {
+  margin-bottom: 20px;
+}
+.cartitem-total-items {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+.cartitemtotal button {
+  background-color: #ff5a5a;
+  color: white;
+  height: 55px;
+  width: 260px;
+  border: none;
+  font-size: 16px;
+}
+.cartitems-promo {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 500;
+}
+.cartitem_promobox {
+  margin-top: 25px;
+  display: flex;
+  height: 50px;
+}
+.cartitem_promobox input {
+  padding-left: 20px;
+  width: 250px;
+  border: none;
+  background-color: rgb(227, 227, 224);
+}
+.cartitem_promobox button {
+  width: 130px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

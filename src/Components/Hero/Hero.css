@@ -1,0 +1,38 @@
+.hero {
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.hero_left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+}
+.hero_left div {
+  display: flex;
+}
+.hero_left h2 {
+  font-size: 20px;
+}
+.hero_left p {
+  font-size: 70px;
+  font-weight: 600;
+}
+.hero_btn {
+  margin-top: 35px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgb(235, 24, 24);
+  border-radius: 40px;
+  width: 280px;
+  height: 60px;
+  gap: 15px;
+}
+.hero_right {
+  justify-content: center;
+  align-items: center;
+}

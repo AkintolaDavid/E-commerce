@@ -1,0 +1,31 @@
+.Description {
+  margin: 80px 150px;
+}
+.Description_navigator {
+  display: flex;
+}
+.Description_nav_box {
+  padding: 20px 20px;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+}
+.Description_nav_box_fade {
+  padding: 20px 20px;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 600;
+  color: #555;
+  background-color: #fbfbfb;
+}
+.Description_Description {
+  padding: 20px 20px;
+  border: 1px solid black;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+}
